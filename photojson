@@ -1,0 +1,35 @@
+// ============================================
+//  這個檔案是你唯一需要常常修改的地方
+// ============================================
+
+// 1. 網站基本資料
+const SITE = {
+  name: "Arlene",
+  heroTitle: "用鏡頭記錄世界",
+  tagline: "攝影師 · 作品集",
+  about: "在這裡寫一段自我介紹:你拍什麼、用什麼器材、為什麼拍照。",
+  email: "your@email.com",
+  instagram: "https://instagram.com/你的帳號",
+};
+
+// 2. 作品清單
+//    - 先把照片放進 photos/ 資料夾
+//    - 再複製下面其中一筆,改成自己的資料
+//    - category 相同的作品會自動出現在同一個分類按鈕下
+//    - 最新的作品放在最上面
+const PHOTOS = [
+  // {
+  //   src: "photos/sunset-01.jpg",
+  //   title: "海邊日落",
+  //   category: "風景",
+  //   date: "2026-10",
+  //   caption: "釜山 · Sony A7C · 35mm f/1.8",
+  // },
+  // {
+  //   src: "photos/street-01.jpg",
+  //   title: "雨後街角",
+  //   category: "街拍",
+  //   date: "2026-09",
+  //   caption: "首爾 · Ricoh GR III",
+  // },
+];
